@@ -1,0 +1,49 @@
+.size-link {
+    width: 150px;
+    height: 57px;
+    display: flex;
+    align-items: start; /* Centrer verticalement avec l'icône */
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16.5px;
+    transition: color 0.3s;
+    &:hover {
+      color: #d1d5db; // Couleur au survol (équivalent à text-gray-300)
+    }
+   
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    position: relative;
+  }
+  
+  a {
+    position: relative;
+    padding: 0px 15px;
+  }
+  
+  a svg {
+    width: 20px; 
+    height: 20px; 
+    margin-left: 8px; 
+  }
+
+.fond-lien-structure{
+    background-color: #710d82;
+}
+.fond-lien-reservez{
+    background-color: #1ca5dd;
+}
+.index-nav{
+  z-index: 1000;
+}
+.pl-link{
+  padding-left:4.10rem;
+}
