@@ -1,3 +1,23 @@
 .gradient-actualite{
     background: linear-gradient(45.35deg, #87ADDB 0.61%, #9D90C9 100%);
 }
+.title-actualite {
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: 0.63px;
+    text-align: center;
+    padding: 140px 0 50px 0;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  .description {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.3333333432674408px;
+    text-align: left;
+    padding: 13px;
+  }

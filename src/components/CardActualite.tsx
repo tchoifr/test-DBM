@@ -1,4 +1,5 @@
 import React from "react";
+import "../sass/actualite.scss";
 
 interface CardProps {
   imageSrc: string;
@@ -17,17 +18,7 @@ const CardActualite: React.FC<CardProps> = ({
         <img className="rounded-t-lg" src={imageSrc} alt={description} />
       </a>
       <div className="p-5 text-center">
-        <p
-          className="mb-3 font-semibold text-white"
-          style={{
-            fontFamily: "Inter",
-            fontSize: "20px",
-            lineHeight: "29px",
-            letterSpacing: "0.3333333432674408px",
-            textAlign: "left",
-            padding: "13px",
-          }}
-        >
+        <p className="mb-3 font-semibold text-white description">
           {description}
         </p>
         <a
