@@ -38,7 +38,7 @@ const ContactFooter = () => {
           />
           <a
             className="uppercase text-black text-[20px] font-semibold leading-[29px] tracking-[0.33px] text-center"
-            href="#"
+            href="btn@email.com"
           >
             Nous Contacter
           </a>
