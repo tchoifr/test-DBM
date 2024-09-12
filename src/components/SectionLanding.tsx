@@ -2,7 +2,6 @@ import React from "react";
 import TitleHeader from "./TitleHeader";
 import Map from "./Map";
 import SearchMap from "./SearchMap";
-import Bull from "./Bull";
 
 const SectionLanding = () => {
   return (
@@ -11,7 +10,6 @@ const SectionLanding = () => {
         <TitleHeader />
         <Map />
         <SearchMap />
-        {/* <Bull /> */}
       </div>
     </div>
   );
