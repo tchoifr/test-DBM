@@ -1,0 +1,52 @@
+.swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+  }
+  .container-carousel {
+    .swiper-scrollbar {
+      height: 3px; // Définir la hauteur de la barre de défilement
+      background-color: #ebebeb; // Couleur de fond de la barre de défilement
+    }
+  
+    .swiper-scrollbar-drag {
+      background-color: #1CA5DD; // Couleur de la partie draggable de la barre de défilement
+      border-radius: 1px; // Pour des coins arrondis (optionnel)
+      width: 999px; // Définir la largeur de la partie draggable
+    }
+  }
+  .bg-image-carousel1 {
+    background-image: url(../assets/images/carousel1.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajoute cette propriété */
+    background-position: center; 
+    height: 65vh;
+  }
+  
+  .bg-image-carousel2 {
+    background-image: url(../assets/images/carousel2.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajoute cette propriété */
+    background-position: center; 
+    height: 65vh;
+  }
+  
+  .bg-image-carousel3 {
+    background-image: url(../assets/images/carousel3.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajoute cette propriété */
+    background-position: center; 
+    height: 65vh;
+  }
+  
+  .bg-image-carousel4 {
+    background-image: url(../assets/images/carousel4.png);
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajoute cette propriété */
+    background-position: start; 
+    height: 65vh;
+  }
+  

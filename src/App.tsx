@@ -1,10 +1,14 @@
 import "./App.css";
-import Header from "./components/Header";
+import SectionCarousel from "./components/SectionCarousel";
+import SectionHeader from "./components/SectionHeader";
+import SectionLanding from "./components/SectionLanding";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <SectionHeader />
+      <SectionLanding />
+      <SectionCarousel />
     </div>
   );
 }
