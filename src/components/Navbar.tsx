@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "../../src/sass/navbar.scss"; // Si nécessaire pour des styles Sass supplémentaires
+import "../../src/sass/navbar.scss";
 import Logo from "./Logo";
 
 const Navbar: React.FC = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault(); // Empêche le comportement par défaut du bouton
+    e.preventDefault();
     setIsDropdownOpen(!isDropdownOpen);
   };
 

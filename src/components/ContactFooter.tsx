@@ -6,7 +6,7 @@ import fb from "../assets/images/fb.png";
 import youtube from "../assets/images/youtube.png";
 const ContactFooter = () => {
   return (
-    <div className="flex justify-around items-end h-60">
+    <div className="flex justify-around items-end h-60 flex-wrap">
       <div>
         <img
           className="w-52 h-24"

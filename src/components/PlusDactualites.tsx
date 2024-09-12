@@ -4,7 +4,7 @@ const PlusDactualites = () => {
   return (
     <div style={{ padding: "40px 0px 100px 0px" }}>
       <svg
-        width="1600"
+        width="100%"
         height="29"
         viewBox="0 0 1600 29"
         fill="none"
