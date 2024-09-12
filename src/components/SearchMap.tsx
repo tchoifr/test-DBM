@@ -6,9 +6,9 @@ const SearchMap = () => {
     <div className="position-container">
       <div className="size-card w-full max-w-md bg-white border border-gray-200 rounded-lg shadow">
         <div className="flex items-center justify-between mb-4">
-          <h5 className="text-xl text-center font-bold leading-none p-4 text-black">
+          <h2 className="text-xl text-center font-bold leading-8 pt-10 pb-4 pl-16 pr-16 text-black">
             Trouvez un centre près de chez vous !
-          </h5>
+          </h2>
         </div>
 
         <div className="">
@@ -68,7 +68,7 @@ const SearchMap = () => {
           </div>
         </div>
 
-        <div className="p-5">
+        <div className="p-10">
           <button className="w-full mt-4 p-2 bg-[#1CA5DD] text-white font-semibold rounded-lg shadow hover:bg-[#1598C9] focus:outline-none focus:ring-2 focus:ring-blue-500">
             Je trouve un centre
           </button>

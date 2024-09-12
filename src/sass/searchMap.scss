@@ -1,29 +1,29 @@
 
 .position-container{
     position: absolute;
-    top: 450px;
-    left: 335px;
+    top: 54vh;
+    left: 25vw;
 
 }
 
 .size-card{
-    width: 295px;
-    height: 390px;
+        width: 18vw;
+    height: 51vh;
 }
 .custom-select-wrapper {
-    position: relative; /* Positionner le conteneur pour le SVG */
+    position: relative; 
   }
   
   .custom-select {
-    appearance: none; /* Supprimer l'apparence par défaut du select */
-    padding-right: 2.5rem; /* Ajouter un espace pour le SVG */
+    appearance: none;
+    padding-right: 2.5rem;
   }
   
   .custom-select-icon {
     position: absolute;
     top: 50%;
-    right: 1rem; /* Positionner le SVG */
-    transform: translateY(-50%); /* Centrer le SVG verticalement */
-    pointer-events: none; /* Ignorer les événements du pointeur sur le SVG */
+    right: 1rem;
+    transform: translateY(-50%);
+    pointer-events: none; 
   }
   

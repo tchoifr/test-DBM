@@ -6,12 +6,12 @@ import Bull from "./Bull";
 
 const SectionLanding = () => {
   return (
-    <div>
+    <div className="bg-landing">
       <div className="relative size-container">
         <TitleHeader />
         <Map />
         <SearchMap />
-        <Bull />
+        {/* <Bull /> */}
       </div>
     </div>
   );

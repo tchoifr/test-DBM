@@ -5,9 +5,16 @@ import "../sass/sizeBull.scss";
 
 const SectionHeader = () => {
   return (
-    <div>
+    <div className="relative">
       <Bandeau />
-      <Navbar />
+      <div
+        style={{
+          position: "absolute",
+          width: "100%",
+        }}
+      >
+        <Navbar />
+      </div>
     </div>
   );
 };

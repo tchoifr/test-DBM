@@ -4,7 +4,7 @@ import PrestationCarousel from "./PrestationCarousel";
 
 const SectionCarousel = () => {
   return (
-    <div className="flex h-full bg-white pt-32 pb-pt-32">
+    <div className="flex h-full bg-white pt-32 pb-32">
       {" "}
       <div className="w-1/4 p-2 flex items-center justify-center">
         <PrestationCarousel />
