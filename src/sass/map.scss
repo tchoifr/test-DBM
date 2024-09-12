@@ -4,3 +4,11 @@
     margin-top: 200px;
     
 }
+
+
+mask{
+    &:hover {
+        filter: drop-shadow(0 0 0.75rem yellow);
+        fill: aqua;
+    }
+}
