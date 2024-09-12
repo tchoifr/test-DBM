@@ -10,13 +10,22 @@ const Carousel = () => {
   return (
     <div className="container-carousel">
       <Swiper
-        // Install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={30}
-        slidesPerView={3.4}
-        navigation={false} // Disable navigation arrows
-        pagination={{ clickable: false }} // Disable pagination dots
-        scrollbar={{ draggable: true }} // Enable scrollbar
+        navigation={false}
+        pagination={{ clickable: false }}
+        scrollbar={{ draggable: true }}
+        breakpoints={{
+          1024: {
+            slidesPerView: 3.4,
+          },
+          768: {
+            slidesPerView: 2.2,
+          },
+          480: {
+            slidesPerView: 1.2,
+          },
+        }}
       >
         <SwiperSlide>
           <div className="bg-indigo-50 rounded-2xl flex items-end justify-center bg-image-carousel1 p-4">

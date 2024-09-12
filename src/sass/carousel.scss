@@ -50,3 +50,36 @@
     height: 65vh;
   }
   
+  .carousel-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    .prestation-carousel {
+      width: 25%; /* Equivalent à w-1/4 */
+      padding: 8px; /* Vous pouvez ajuster si nécessaire */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .main-carousel {
+      width: 75%; /* Equivalent à w-3/4 */
+    }
+  }
+  
+  // Styles pour les écrans jusqu'à 1440px
+  @media (max-width: 1440px) {
+    .carousel-container {
+      flex-direction: column;
+  
+      .prestation-carousel,
+      .main-carousel {
+        width: 100%;
+      }
+    }
+  }
+  

@@ -1,15 +1,14 @@
 import React from "react";
 import Carousel from "./Carousel";
 import PrestationCarousel from "./PrestationCarousel";
-
+import "../sass/carousel.scss";
 const SectionCarousel = () => {
   return (
-    <div className="flex h-full bg-white pt-32 pb-32">
-      {" "}
-      <div className="w-1/4 p-2 flex items-center justify-center">
+    <div className="carousel-container">
+      <div className="prestation-carousel">
         <PrestationCarousel />
       </div>
-      <div className="w-3/4 ">
+      <div className="main-carousel">
         <Carousel />
       </div>
     </div>
