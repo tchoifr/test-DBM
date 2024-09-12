@@ -43,30 +43,21 @@ const Navbar: React.FC = () => {
               {isDropdownOpen && (
                 <div
                   id="dropdown"
-                  className="absolute bg-gray-800 text-white mt-2 py-2 w-48 border border-gray-700"
+                  className="absolute  text-white mt-2 py-2 w-48 border "
                 >
                   <ul className="py-2 text-sm">
                     <li>
-                      <a
-                        href="/centre1"
-                        className="block px-4 py-2 hover:bg-gray-700"
-                      >
+                      <a href="/centre1" className="block px-4 py-2">
                         Centre 1
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="/centre2"
-                        className="block px-4 py-2 hover:bg-gray-700"
-                      >
+                      <a href="/centre2" className="block px-4 py-2">
                         Centre 2
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="/centre3"
-                        className="block px-4 py-2 hover:bg-gray-700"
-                      >
+                      <a href="/centre3" className="block px-4 py-2">
                         Centre 3
                       </a>
                     </li>
