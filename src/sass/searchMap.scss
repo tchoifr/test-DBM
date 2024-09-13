@@ -1,29 +1,48 @@
 
 .position-container{
-    position: absolute;
-    top: 54vh;
-    left: 25vw;
+  position: absolute;
+  top: 54vh;
+  left: 25vw;
 
 }
 
 .size-card{
-        width: 18vw;
-    height: 51vh;
+      width: 18vw;
+  height: 51vh;
 }
 .custom-select-wrapper {
-    position: relative; 
+  position: relative; 
+}
+
+.custom-select {
+  appearance: none;
+  padding-right: 2.5rem;
+}
+
+.custom-select-icon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  pointer-events: none; 
+}
+@media (max-width: 1440px) {
+  .position-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: static;
   }
-  
-  .custom-select {
-    appearance: none;
-    padding-right: 2.5rem;
+
+  .size-card {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .custom-select-icon {
-    position: absolute;
-    top: 50%;
-    right: 1rem;
-    transform: translateY(-50%);
-    pointer-events: none; 
-  }
-  
+}

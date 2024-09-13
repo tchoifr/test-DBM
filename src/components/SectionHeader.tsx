@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Bandeau from "./Bandeau";
-import NavbarResponsive from "./NavbarResponsive";
 import BandeauResponsive from "./BandeauResponsive";
 
 const SectionHeader = () => {
@@ -33,7 +32,7 @@ const SectionHeader = () => {
           width: "100%",
         }}
       >
-        {isWideScreen ? <Navbar /> : <NavbarResponsive />}
+        {isWideScreen ? <Navbar /> : null}
       </div>
     </div>
   );

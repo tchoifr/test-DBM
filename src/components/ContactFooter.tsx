@@ -4,6 +4,7 @@ import phone from "../assets/images/phone.png";
 import mail from "../assets/images/mail.png";
 import fb from "../assets/images/fb.png";
 import youtube from "../assets/images/youtube.png";
+import "../sass/footer.scss";
 const ContactFooter = () => {
   return (
     <div className="flex justify-around items-end h-60 flex-wrap">
@@ -16,7 +17,7 @@ const ContactFooter = () => {
         />
       </div>
       <div className="flex flex-col">
-        <div className="flex items-center">
+        <div className="flex items-center responsive-contact-footer">
           <img
             className="w-4 h-4"
             style={{ objectFit: "contain" }}

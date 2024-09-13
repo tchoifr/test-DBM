@@ -8,20 +8,20 @@
   }
   .container-carousel {
     .swiper-scrollbar {
-      height: 3px; // Définir la hauteur de la barre de défilement
-      background-color: #ebebeb; // Couleur de fond de la barre de défilement
+      height: 3px; 
+      background-color: #ebebeb; 
     }
   
     .swiper-scrollbar-drag {
-      background-color: #1CA5DD; // Couleur de la partie draggable de la barre de défilement
-      border-radius: 1px; // Pour des coins arrondis (optionnel)
-      width: 999px; // Définir la largeur de la partie draggable
+      background-color: #1CA5DD; 
+      border-radius: 1px; 
+      width: 999px;
     }
   }
   .bg-image-carousel1 {
     background-image: url(../assets/images/carousel/carousel1.png);
     background-repeat: no-repeat;
-    background-size: cover; /* Ajoute cette propriété */
+    background-size: cover; 
     background-position: center; 
     height: 65vh;
   }
@@ -29,7 +29,7 @@
   .bg-image-carousel2 {
     background-image: url(../assets/images/carousel/carousel2.png);
     background-repeat: no-repeat;
-    background-size: cover; /* Ajoute cette propriété */
+    background-size: cover; 
     background-position: center; 
     height: 65vh;
   }
@@ -37,7 +37,7 @@
   .bg-image-carousel3 {
     background-image: url(../assets/images/carousel/carousel3.png);
     background-repeat: no-repeat;
-    background-size: cover; /* Ajoute cette propriété */
+    background-size: cover;
     background-position: center; 
     height: 65vh;
   }
@@ -45,7 +45,7 @@
   .bg-image-carousel4 {
     background-image: url(../assets/images/carousel/carousel4.png);
     background-repeat: no-repeat;
-    background-size: contain; /* Ajoute cette propriété */
+    background-size: contain; 
     background-position: start; 
     height: 65vh;
   }
@@ -59,19 +59,18 @@
     padding-bottom: 32px;
   
     .prestation-carousel {
-      width: 25%; /* Equivalent à w-1/4 */
-      padding: 8px; /* Vous pouvez ajuster si nécessaire */
+      width: 25%;
+      padding: 8px; 
       display: flex;
       align-items: center;
       justify-content: center;
     }
   
     .main-carousel {
-      width: 75%; /* Equivalent à w-3/4 */
+      width: 75%;
     }
   }
   
-  // Styles pour les écrans jusqu'à 1440px
   @media (max-width: 1440px) {
     .carousel-container {
       flex-direction: column;

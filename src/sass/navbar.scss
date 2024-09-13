@@ -2,14 +2,14 @@
   width: 150px;
   height: 57px;
   display: flex;
-  align-items: start; /* Centrer verticalement avec l'icône */
+  align-items: start;
   justify-content: center;
   text-align: center;
   color: #ffffff;
   font-size: 16.5px;
   transition: color 0.3s;
   &:hover {
-    color: #d1d5db; // Couleur au survol (équivalent à text-gray-300)
+    color: #d1d5db; 
   }
 }
 
@@ -50,13 +50,12 @@ a svg {
   padding-left: 4.10rem;
 }
 
-/* Media query pour les écrans de 1440px et plus */
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .pl-link {
-    padding-left: 2.05rem; // Réduit la marge de moitié (4.10rem divisé par 2)
+    padding-left: 2.05rem; 
   }
   
   ul li {
-    margin-right: 1.25rem; // Réduit la marge droite de moitié (5 divisé par 2 en rems)
+    margin-right: 1.25rem; 
   }
 }

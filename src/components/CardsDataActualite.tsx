@@ -32,7 +32,7 @@ const cardsData = [
 
 const CardsDataActualite: React.FC = () => {
   return (
-    <div className="flex flex-wrap gap-4">
+    <div className="flex flex-wrap gap-4 justify-center">
       {cardsData.map((card, index) => (
         <CardActualite
           key={index}
