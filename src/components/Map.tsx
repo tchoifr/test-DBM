@@ -58,7 +58,7 @@ const Map = () => {
               fill="white"
             />
           </mask>
-          <g className="departement" mask="url(#mask1_0_39)">
+          <g className="" mask="url(#mask1_0_39)">
             <path
               d="M330.785 184.868L364.472 166.335C365.434 165.805 367.094 165.589 368.16 165.856L380.231 168.874C381.297 169.141 381.534 169.995 380.756 170.773L374.28 177.251C373.502 178.028 373.659 179.091 374.627 179.61L400.785 193.67C401.754 194.191 403.445 194.617 404.544 194.617H430.227C431.326 194.617 433.02 195.036 433.991 195.549L469.882 214.509C470.854 215.021 471.52 216.331 471.362 217.42L468.392 237.834C468.235 238.922 468.659 240.521 469.336 241.387L496.996 276.787C497.673 277.654 497.938 279.214 497.586 280.255L489.202 305.004"
               stroke="#95C7D9"
@@ -80,7 +80,7 @@ const Map = () => {
               fill="white"
             />
           </mask>
-          <g className="departement" mask="url(#mask2_0_39)">
+          <g className="" mask="url(#mask2_0_39)">
             <path d="M318.825 283.901L398.116 316.469" stroke="#95C7D9" />
           </g>
           <mask
@@ -143,7 +143,7 @@ const Map = () => {
               fill="white"
             />
           </mask>
-          <g className="departement" mask="url(#mask5_0_39)">
+          <g className="" mask="url(#mask5_0_39)">
             <path
               d="M579.29 159.611L581.401 200.153C581.458 201.25 582.309 202.551 583.292 203.043L596.551 209.674C597.534 210.165 598.419 211.463 598.519 212.558L599.929 228.074C600.029 229.168 601.009 230.064 602.108 230.064H632.664C633.763 230.064 634.904 229.198 635.202 228.14L638.107 217.809C638.404 216.751 639.547 215.885 640.646 215.885H653.483C654.582 215.885 655.686 216.761 655.937 217.831L659.898 234.764C660.149 235.835 660.871 237.446 661.504 238.344L691.982 281.602C692.615 282.501 693.899 283.708 694.835 284.283L708.708 292.823C709.643 293.399 710.409 292.972 710.409 291.872V272.385C710.409 271.286 711.211 270.793 712.191 271.29L740.963 285.877C741.943 286.374 742.758 287.68 742.773 288.779L743.161 317.129C743.176 318.228 743.461 319.984 743.794 321.032L745.684 326.97C746.016 328.019 747.026 329.391 747.927 330.02L764.673 341.725"
               stroke="#95C7D9"
@@ -165,7 +165,7 @@ const Map = () => {
               fill="white"
             />
           </mask>
-          <g className="departement" mask="url(#mask6_0_39)">
+          <g className="" mask="url(#mask6_0_39)">
             <path
               d="M494.462 152.521L469.367 167.873C468.429 168.447 468.071 169.717 468.569 170.697L478.272 189.733C478.771 190.713 478.945 192.383 478.66 193.444L476.598 201.105C476.312 202.166 475.377 203.596 474.519 204.284L465.005 211.897"
               stroke="#95C7D9"
@@ -187,7 +187,7 @@ const Map = () => {
               fill="white"
             />
           </mask>
-          <g className="departement" mask="url(#mask7_0_39)">
+          <g className="" mask="url(#mask7_0_39)">
             <path
               d="M699.39 206.192L693.908 238.728C693.725 239.811 693.032 241.414 692.366 242.29L678.072 261.081"
               stroke="#95C7D9"
@@ -253,7 +253,7 @@ const Map = () => {
               fill="white"
             />
           </mask>
-          <g className="departement" mask="url(#mask10_0_39)">
+          <g className="" mask="url(#mask10_0_39)">
             <path
               d="M583.941 485.29L583.304 438.547C583.289 437.448 583.593 435.707 583.978 434.678L593.207 410.062C593.592 409.032 593.506 407.387 593.015 406.403L589.486 399.344C588.995 398.36 589.145 396.847 589.822 395.981L601.538 380.965C602.214 380.098 602.768 378.489 602.768 377.39V362.335C602.768 361.235 602.256 359.597 601.631 358.692L591.945 344.698C591.319 343.794 590.81 342.155 590.814 341.056L590.918 309.573"
               stroke="#95C7D9"
@@ -275,7 +275,7 @@ const Map = () => {
               fill="white"
             />
           </mask>
-          <g className="departement" mask="url(#mask11_0_39)">
+          <g className="" mask="url(#mask11_0_39)">
             <path
               d="M583.277 299.631L567.881 305.159C566.847 305.53 566.138 306.723 566.305 307.81L567.469 315.38C567.637 316.466 567.005 317.823 566.067 318.396L554.705 325.331"
               stroke="#95C7D9"
@@ -298,7 +298,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask12_0_39)">
+        <g className="" mask="url(#mask12_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -322,7 +322,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask13_0_39)">
+        <g className="" mask="url(#mask13_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -346,7 +346,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask14_0_39)">
+        <g className="" mask="url(#mask14_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -370,7 +370,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask15_0_39)">
+        <g className="" mask="url(#mask15_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -394,7 +394,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask16_0_39)">
+        <g className="" mask="url(#mask16_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -418,7 +418,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask17_0_39)">
+        <g className="" mask="url(#mask17_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -442,7 +442,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask18_0_39)">
+        <g className="" mask="url(#mask18_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -466,7 +466,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask19_0_39)">
+        <g className="" mask="url(#mask19_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -490,7 +490,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask20_0_39)">
+        <g className="" mask="url(#mask20_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -514,7 +514,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask21_0_39)">
+        <g className="" mask="url(#mask21_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -538,7 +538,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask22_0_39)">
+        <g className="" mask="url(#mask22_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -562,7 +562,7 @@ const Map = () => {
             fill="white"
           />
         </mask>
-        <g className="departement" mask="url(#mask23_0_39)">
+        <g className="" mask="url(#mask23_0_39)">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
