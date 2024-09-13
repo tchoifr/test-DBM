@@ -9,13 +9,18 @@
 }
 
 @media (max-width: 1440px) {
+    .reponsive-map{
+        height: 400px;
+    }
     .container-map{
+        margin-top: 10vh;
         margin-left: 0vw;
     }
   }
   @media (max-width: 425px) {
     .container-map{
         margin-top: 0vw;
+        
     }
   }
   

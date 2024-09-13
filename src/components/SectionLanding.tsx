@@ -8,8 +8,8 @@ const SectionLanding = () => {
     <div className="bg-landing">
       <div className="relative size-container">
         <TitleHeader />
-        <Map />
         <SearchMap />
+        <Map />
       </div>
     </div>
   );

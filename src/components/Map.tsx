@@ -4,6 +4,7 @@ const Map = () => {
   return (
     <div className="container-map">
       <svg
+        className="reponsive-map"
         width="973"
         height="576"
         viewBox="0 0 973 576"

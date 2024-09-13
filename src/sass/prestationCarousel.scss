@@ -18,4 +18,8 @@
       text-align: left;
     }
   }
-  
+  @media (max-width: 1440px) {
+    .container-prestation{
+      padding: 10px;
+    }
+  }
