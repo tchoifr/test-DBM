@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/images/logo.webp";
+import phone from "../assets/images/phone.png";
+import mail from "../assets/images/mail.png";
+
 const BandeauResponsive = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,7 +20,7 @@ const BandeauResponsive = () => {
             objectFit: "cover",
           }}
           src={logo}
-          alt=""
+          alt="Logo"
         />
       </div>
 
@@ -41,25 +44,122 @@ const BandeauResponsive = () => {
           </svg>
         </button>
       </div>
+
       {isMenuOpen && (
-        <div className="absolute top-12 right-0 mt-2 bg-white border border-gray-200 shadow-lg">
-          <ul className="py-2 text-sm">
+        <div
+          style={{
+            zIndex: "1000",
+          }}
+          className="absolute top-12 right-0 bg-white border border-gray-200 shadow-lg"
+        >
+          <ul className="py-2 text-sm p-5">
             <li>
-              <a href="/centre1" className="block px-4 py-2 hover:bg-gray-100">
-                Centre 1
+              <label htmlFor="centres" className="font-bold block px-4 py-2">
+                Nos centres
+              </label>
+              <select
+                id="centres"
+                className="block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+                onChange={(e) => {
+                  const selectedCentre = e.target.value;
+                  if (selectedCentre) {
+                    window.location.href = selectedCentre;
+                  }
+                }}
+              >
+                <option value="">Sélectionner un centre</option>
+                <option value="/centre1">Centre 1</option>
+                <option value="/centre2">Centre 2</option>
+                <option value="/centre3">Centre 3</option>
+              </select>
+            </li>
+
+            <li>
+              <a
+                href="/formules-bien-etre"
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                Nos formules bien être
               </a>
             </li>
+
             <li>
-              <a href="/centre2" className="block px-4 py-2 hover:bg-gray-100">
-                Centre 2
+              <a
+                href="/presentations"
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                Nos présentations
               </a>
             </li>
+
             <li>
-              <a href="/centre3" className="block px-4 py-2 hover:bg-gray-100">
-                Centre 3
+              <a
+                href="/offrez-bon-cadeau"
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                Offrez un bon cadeau
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/qui-sommes-nous"
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                Qui sommes nous ?
+              </a>
+            </li>
+
+            <li>
+              <button
+                style={{ backgroundColor: "#710d82" }}
+                className="block px-4 py-2 m-2 w-full text-center text-white"
+              >
+                Trouver une Structure
+              </button>
+            </li>
+
+            <li>
+              <button
+                style={{ backgroundColor: "#1ca5dd" }}
+                className="block px-4 py-2 m-2 w-full text-center text-white"
+              >
+                Réserver un soin
+              </button>
+            </li>
+
+            <li>
+              <a
+                href="/actualites"
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                Actualités
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/mon-espace"
+                className="block px-4 py-2 hover:bg-gray-100"
+              >
+                Mon espace
               </a>
             </li>
           </ul>
+          <div className="flex justify-center">
+            <img
+              className="w-4 h-4 m-2"
+              style={{ objectFit: "contain" }}
+              src={phone}
+              alt="Téléphone"
+            />
+            <img
+              className="w-4 h-4 m-2"
+              style={{ objectFit: "contain" }}
+              src={mail}
+              alt="Mail"
+            />
+          </div>
         </div>
       )}
     </div>

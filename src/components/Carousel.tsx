@@ -28,21 +28,21 @@ const Carousel = () => {
         }}
       >
         <SwiperSlide>
-          <div className="bg-indigo-50 rounded-2xl flex items-end justify-center bg-image-carousel1 p-4">
+          <div className="bg-indigo-50 rounded-2xl flex items-end justify-center bg-image-carousel1 bg-size-carousel p-4">
             <span className="text-3xl font-semibold text-white  ">
               Bains intérieurs
             </span>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-indigo-50 rounded-2xl flex items-end justify-center bg-image-carousel2 p-4">
+          <div className="bg-indigo-50 rounded-2xl flex items-end justify-center bg-image-carousel2 bg-size-carousel p-4">
             <span className="text-3xl font-semibold text-white">
               Bains extérieurs
             </span>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-indigo-50 rounded-2xl flex items-end justify-center bg-image-carousel3 p-4">
+          <div className="bg-indigo-50 rounded-2xl flex items-end justify-center bg-image-carousel3 bg-size-carousel p-4">
             <span className="text-3xl font-semibold text-white ">
               Sauna & Hammam
             </span>
