@@ -13,4 +13,8 @@ Les versions suivantes de Node.js et npm installées :
 
 ## Lancement du projet
 
-- npm run start -[http://localhost:3000]
+- npm run start
+
+## HTTP
+
+[http://localhost:3000]
